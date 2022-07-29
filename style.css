@@ -1,0 +1,12 @@
+body {
+    display: flex;
+}
+
+.left-super {
+    background-image: url("img/fern.jpg");
+    border: 2px solid red;
+}
+
+.right-super {
+    border: 2px solid red;
+}
