@@ -10,24 +10,40 @@
 <body>
     <div class="left-super">
         <div class="logo-block">
-
+            <img src="img/odin-lined.png" alt="odin-logo" class="odin-logo">
+            <p class="logo-text">Odin</p>
         </div>
         <p class="photo-cred">Photo by <u>Halie West</u> on <u>Unsplash</u></p>
     </div>
     <div class="right-super">
         <div class="info-block">
-            <h3>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</h3>
-            <h3>You <em>know</em> you want to.</h3>
+            <h4>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.<br>Sign up <em>now</em> to get started.</h4>
+            <h4>You <em>know</em> you want to.</h4>
         </div>
         <div class="form-block">
-            <h3>Let's do this!</h3>
+            <h4>Let's do this!</h4>
             <form>
-
+              <div class="form-left">
+                <label for="first-name">FIRST NAME</label>
+                <input type="text" id="first-name" name="first-name">
+                <label for="email">EMAIL</label>
+                <input type="email" name="email" id="email">
+                <label for="password">PASSWORD</label>
+                <input type="password" name="password" id="password">
+              </div>
+              <div class="form-right">
+                <label for="last-name">LAST NAME</label>
+                <input type="text" name="last-name" id="last-name">
+                <label for="phone">PHONE NUMBER</label>
+                <input type="tel" name="phone" id="phone">
+                <label for="password-conf">CONFIRM PASSWORD</label>
+                <input type="password" name="password-conf" id="password-conf">
+              </div>
             </form>
         </div>
         <div class="submit-block">
-            <button>Create Account</button>
-            <p>Already have an account? <button>Log in</button></p>
+            <button class="create-account">Create Account</button>
+            <p>Already have an account? <a class="log-in" href="">Log in</a></p>
         </div>
     </div>
 </body>
